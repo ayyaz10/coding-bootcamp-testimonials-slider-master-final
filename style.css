@@ -130,9 +130,9 @@
         }
         
         .testmonial-text-container {
-            /* margin-top: 30px; */
+
             background-size: 11%;
-            /* padding: 5% 15%; */
+
         }
     }
 
@@ -142,28 +142,16 @@
           min-width: 950px;
           position: relative;
           margin: 20px auto;
-          /* padding-top: 6%; */
+
       }
     .testmonial {   
         display: flex;
         flex-direction: row-reverse;
-        justify-content: stretch;
-        align-items: stretch;
-        align-content: stretch;
-
         background-position: left 110%;
         background-size: 60%; 
-        /* justify-content: space-around; */
-        /* align-content: flex-start; */
-        /* align-items: center; */
     }
 
     .testmonials-container .testmonial-image-container {
-        /* align-self: center; */
-        /* position: absolute; */
-        /* margin-top: 50px; */
-        /* margin-right: 50px; */
-        /* right:0; */
         align-self: center;
         position: relative;
         left: -70px;
@@ -174,14 +162,11 @@
     }
     
     .img .client-img {
-        /* width: 60%; */
         margin-top: 0;
     } 
   
     .testmonials-container .testmonial-image-container {
-        /* padding: 3.7% 0% 0% 0%; */
         padding: 5% 0 10% 0;
-        /* padding: 5% 5% 5% 5%; */
         flex: 1;
     }
 
@@ -190,32 +175,20 @@
         margin-left: 17%;
     }  
     .testmonials-container .testmonial-text-container {
-        /* align-self: center; */
-        /* display: block; */
         position: relative;
-        /* top: 40px; */
         flex: 1;
-        /* left: 100px; */
 
-        /* padding: 5% 40% 15% 5%; */
-        /* padding: 0% 0% 0% 0%; */
         padding: 5% 0 10% 9%;
-        /* padding-left: 10%; */
         background-position: 120px top;
         background-size: 15%;
         align-self: center;
 
     }
     .testmonial-text-container p {
-        /* position: relative; */
-        /* top: 40px; */
     }
     .testmonial-text-container p.main-text {
         font-size: 22px;
         text-align: left;
-        /* min-width: 140px; */
-        /* margin-left: 200px; */
-        /* position: relativ */
     }
     
     .client-info {
