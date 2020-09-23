@@ -21,7 +21,9 @@ for (let i = 0; i < slideRight.length; i++){
 }
 
 document.addEventListener('keyup', (e) => {
-    if(e.keyCode === 37 || e.keyCode === 39) {
+    let key = e.key,
+        keyCode = e.keyCode;
+    if ((key && 'ArrowLeft' === key || keyCode && 37 === keyCode) || (key && 'ArrowRight' === key || keyCode && 39 === keyCode) ) {
         testmonial[0].classList.toggle("hide");
         testmonial[1].classList.toggle("hide");
     }
