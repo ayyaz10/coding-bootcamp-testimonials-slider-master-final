@@ -19,3 +19,10 @@ for (let i = 0; i < slideRight.length; i++){
         testmonial[1].classList.toggle("hide");
     });
 }
+
+document.addEventListener('keyup', (e) => {
+    if(e.keyCode === 37 || e.keyCode === 39) {
+        testmonial[0].classList.toggle("hide");
+        testmonial[1].classList.toggle("hide");
+    }
+})
